@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Spice&family=Bungee+Tint&family=Cherish&family=Dancing+Script&family=Homemade+Apple&family=Kablammo&family=Medula+One&family=Monoton&family=Nabla&family=Pacifico&family=Plaster&family=Press+Start+2P&family=Rock+Salt&family=Ruthie&family=Sixtyfour+Convergence&family=Tangerine:wght@400;700&family=Twinkle+Star&family=Zeyada&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  background-color: #000;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.navbar-logo:hover {
+  background-color: hotpink;
+  transition: background-color 0.3s;
+}
+
+.custom-avatar {
+  border: 2px solid hotpink !important;
+}
+
+.altcizgi li a {
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+  font-size: 24px;
+}
+
+.altcizgi li a:hover {
+  border-bottom: 2px solid hotpink;
+}
+
+.ust-kisim {
+  background-image: url("../public/img/arkaplan-4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+.alt-kisim {
+  background-image: url("../public/img/arkaplan-6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+}
+.yenilikci {
+  color: #ff9580;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.tangerine-regular {
+  font-family: "Tangerine", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.homemade-apple-regular {
+  font-family: "Homemade Apple", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.press-start-2p-regular {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cherish-regular {
+  font-family: "Cherish", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.twinkle-star-regular {
+  font-family: "Twinkle Star", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.bungee-spice-regular {
+  font-family: "Bungee Spice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.medula-one-regular {
+  font-family: "Medula One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.plaster-regular {
+  font-family: "Plaster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutimg {
+  background-image: url("../public/img/arkaplan-7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100vw;
+}
