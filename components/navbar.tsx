@@ -91,7 +91,11 @@ export const Navbar = () => {
         <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
         <NavbarItem className="hidden md:flex">
           <NavbarContent as="div" justify="end">
-            <Dropdown placement="bottom-end" backdrop="blur" className="backdrop: 'bg-gradient-to-t from-zinc-900 to-zinc-900/10 backdrop-opacity-20'">
+            <Dropdown
+              placement="bottom-end"
+              backdrop="blur"
+              className="backdrop: 'bg-gradient-to-t from-zinc-900 to-zinc-900/10 backdrop-opacity-20'"
+            >
               <DropdownTrigger>
                 <Avatar
                   isBordered

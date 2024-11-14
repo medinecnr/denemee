@@ -17,18 +17,18 @@ export default function Home() {
         <div>
           <motion.h1
             className="font-semibold text-white text-3xl rounded-md text-shadow bungee-tint-regular"
-            initial={{ opacity: 0, y: -100 }} // Başlangıçta görünmez ve yukarıda
-            animate={{ opacity: 1, y: 0 }} // Animasyon sonunda görünür ve normal konumda
-            transition={{ duration: 1 }} // 1 saniyelik animasyon
+            initial={{ opacity: 0, y: -100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
           >
             Lorem ipsum.
           </motion.h1>
 
           <motion.p
             className="mt-2 text-3xl rounded-md text-shadow homemade-apple-regular yenilikci"
-            initial={{ opacity: 0, y: 50 }} // Başlangıçta görünmez ve aşağıda
-            animate={{ opacity: 1, y: 0 }} // Animasyon sonunda görünür ve normal konumda
-            transition={{ duration: 1, delay: 0.2 }} // 1 saniye animasyon süresi, 0.2 saniye gecikme ile
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2 }}
           >
             Yenilikçi stratejilerle geleceğe güçlü adımlar atmak mümkün!
           </motion.p>
@@ -178,18 +178,18 @@ export default function Home() {
         <div>
           <motion.h1
             className="font-semibold text-white text-3xl rounded-md text-shadow plaster-regular "
-            initial={{ opacity: 0, y: -100 }} // Başlangıçta görünmez ve yukarıda
-            animate={{ opacity: 1, y: 0 }} // Animasyon sonunda görünür ve normal konumda
-            transition={{ duration: 3, delay: 2 }} // 1 saniyelik animasyon
+            initial={{ opacity: 0, y: -100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 3, delay: 2 }}
           >
             Lorem.
           </motion.h1>
 
           <motion.p
             className="mt-2 text-white text-3xl rounded-md text-shadow medula-one-regular"
-            initial={{ opacity: 0, y: 50 }} // Başlangıçta görünmez ve aşağıda
-            animate={{ opacity: 1, y: 0 }} // Animasyon sonunda görünür ve normal konumda
-            transition={{ duration: 3, delay: 2 }} // 1 saniye animasyon süresi, 0.2 saniye gecikme ile
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 3, delay: 2 }}
           >
             Whereas recognition of the inherent dignity. Lorem ipsum dolor sit
             amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt

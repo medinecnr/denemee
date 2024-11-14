@@ -8,8 +8,6 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import Footer from "@/components/Footer";
-
-// Metadata ayarları
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
@@ -21,7 +19,6 @@ export const metadata: Metadata = {
   },
 };
 
-// Viewport ayarları (tema renkleri için)
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },

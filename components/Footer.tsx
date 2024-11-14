@@ -7,7 +7,6 @@ const Footer = () => {
   return (
     <footer className="pt-10 pb-2 mt-12 bg-black">
       <div className="container mx-auto px-4">
-        {/* Footer üst kısmı */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           <div className="text-center md:text-left mb-4 md:mb-0 flex flex-col items-center">
             <Image
@@ -24,8 +23,6 @@ const Footer = () => {
               Innovative solutions for modern problems
             </p>
           </div>
-
-          {/* Footer sağ kısmı */}
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
             <a
               href="#about"
@@ -47,8 +44,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-        {/* Footer alt kısmı */}
         <div className="mt-6 border-t border-gray-700 pt-4 text-center">
           <p className="text-lg text-gray-400 medula-one-regular">
             &copy; 2024 Lorem Ipsum. All rights reserved.
