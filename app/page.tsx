@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div>
+    <div className="mt-4">
       <div className="p-4 text-center ust-kisim rounded-md flex items-center justify-center h-[400px]">
         <div>
           <motion.h1
