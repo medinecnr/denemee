@@ -399,7 +399,9 @@ export default function AboutPage() {
           <Card className="max-w-[400px] w-full mx-auto">
             <CardHeader className="flex gap-3">
               <div className="flex flex-col justify-center items-center w-full">
-                <p className="text-md medula-one-regular text-2xl">FATURALAMA VE ABONELİKLER</p>
+                <p className="text-md medula-one-regular text-2xl">
+                  FATURALAMA VE ABONELİKLER
+                </p>
               </div>
             </CardHeader>
             <Divider />
@@ -410,7 +412,12 @@ export default function AboutPage() {
             </CardBody>
             <Divider />
             <CardFooter>
-              <Link isExternal showAnchorIcon href="#" className="medula-one-regular text-xl">
+              <Link
+                isExternal
+                showAnchorIcon
+                href="#"
+                className="medula-one-regular text-xl"
+              >
                 Ziyaret Edin.
               </Link>
             </CardFooter>
