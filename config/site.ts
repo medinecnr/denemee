@@ -9,8 +9,8 @@ export const siteConfig = {
       href: "/docs",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "Destek",
+      href: "/destek",
     },
   ],
   navMenuItems: [

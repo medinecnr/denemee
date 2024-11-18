@@ -24,22 +24,13 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
-            <a
-              href="#about"
-              className="text-xl text-gray-400 hover:text-pink-400 transition-colors medula-one-regular"
-            >
-              About Us
+            <a href="./destek" className="text-xl text-gray-400 hover:text-pink-400 transition-colors medula-one-regular">
+              Destek
             </a>
-            <a
-              href="#services"
-              className="text-xl text-gray-400 hover:text-pink-400 transition-colors medula-one-regular"
-            >
+            <a href="#services" className="text-xl text-gray-400 hover:text-pink-400 transition-colors medula-one-regular">
               Services
             </a>
-            <a
-              href="#contact"
-              className="text-xl text-gray-400 hover:text-pink-400 transition-colors medula-one-regular"
-            >
+            <a href="#contact" className="text-xl text-gray-400 hover:text-pink-400 transition-colors medula-one-regular">
               Contact
             </a>
           </div>

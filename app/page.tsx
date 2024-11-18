@@ -1,13 +1,6 @@
-"use client"; // React 18+ ve Next.js 13+ ile kullanılıyor, client-side rendering (CSR) sağlamak için gerekli.
+"use client";
 import "@/styles/globals.css";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Image,
-  Button,
-} from "@nextui-org/react";
+import {Card, CardHeader, CardBody, CardFooter, Image, Button,} from "@nextui-org/react";
 import { motion } from "framer-motion";
 
 export default function Home() {
