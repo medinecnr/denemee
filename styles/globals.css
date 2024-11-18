@@ -130,4 +130,18 @@
   height: 50vh;
   width: 100vh;
 }
+
+
+.destek {
+  background-image: url("/img/destek1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 */
